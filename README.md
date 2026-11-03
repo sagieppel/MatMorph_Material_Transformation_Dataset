@@ -3,7 +3,7 @@ license: cc0-1.0
 ---
 # MatMorph: A dataset for Visual Material-Transformation and Physical-State Recognition
 
-## Download Sources:  [Hugging Face](https://huggingface.co/datasets/FlyingFrog/MatMorph_Visual_Material_Transformations_Dataset/tree/main)
+## Download From:  [Hugging Face](https://huggingface.co/datasets/FlyingFrog/MatMorph_Visual_Material_Transformations_Dataset/tree/main) , [Zenodo](https://zenodo.org/records/23920615)
 
 MatMorph is a general-purpose dataset and benchmark for visual recognition of material and physical transformations.
 MatMorph evaluates vision models' ability to recognize similarities and changes in materials and physical systems undergoing gradual changes in a zero-shot setting, without being restricted to specific processes, materials, or environments. For example, given a sequence of images showing metal gradually rusting, the model must identify which images represent the most similar states of the metal. Crucially, lighting, environmental conditions, and camera viewpoints vary between transformation steps, requiring models to recognize material states independently of imaging conditions and surrounding environments.
